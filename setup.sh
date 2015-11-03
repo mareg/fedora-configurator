@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Remove unwanted applications"
-sudo dnf remove claws-mail *abrt* xfburn -y
+sudo dnf remove claws-mail *abrt* setroubleshoot-server xfburn -y
 
 echo "Install required software"
 sudo dnf install -y evolution banshee docky
